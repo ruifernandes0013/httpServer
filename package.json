@@ -1,0 +1,29 @@
+{
+  "name": "httpserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node --transpile-only src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruifernandes0013/httpServer.git"
+  },
+  "author": "Rui Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruifernandes0013/httpServer/issues"
+  },
+  "homepage": "https://github.com/ruifernandes0013/httpServer#readme",
+  "dependencies": {
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
