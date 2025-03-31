@@ -5,13 +5,13 @@ A lightweight, TypeScript-based HTTP server library designed for use in other pr
 ## 📦 Installation
 
 ```sh
-npm install your-package-name
+npm install httpserver
 ```
 
 or using yarn:
 
 ```sh
-yarn add your-package-name
+yarn add httpserver
 ```
 
 ## 🚀 Usage
@@ -19,7 +19,7 @@ yarn add your-package-name
 ### Import and Initialize
 
 ```ts
-import { HttpClient } from "your-package-name";
+import { HttpClient } from "httpserver";
 
 const app = new HttpClient();
 
