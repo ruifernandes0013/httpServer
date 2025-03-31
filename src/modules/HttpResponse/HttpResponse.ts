@@ -8,8 +8,8 @@ export class HttpResponse {
 
   constructor(private socket: any) {}
 
-  send(body: string): void {
-    this.body = body
+  send(body: any): void {
+    this.body = JSON.stringify(body)
     this.writeResponse()
   }
 
