@@ -1,12 +1,17 @@
 {
   "name": "httpserver",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "description": "A lightweight HTTP server library for Node.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "nodemon --exec ts-node --transpile-only src/index.ts",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "prepare": "npm run build"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ruifernandes0013/httpServer.git"

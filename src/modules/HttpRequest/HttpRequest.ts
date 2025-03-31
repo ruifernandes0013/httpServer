@@ -1,4 +1,4 @@
-import { HttpMethod } from "../HttpClient/types"
+import { HttpMethod } from "../../types"
 
 /**
  * Parses and represents an HTTP request from a raw request string.  

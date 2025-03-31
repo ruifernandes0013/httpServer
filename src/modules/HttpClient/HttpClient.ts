@@ -5,7 +5,7 @@ import {
   IHttpClient, 
   RequestHandler, 
   ServerOptions 
-} from './types'
+} from '../../types'
 import { HttpRequest } from '../HttpRequest/HttpRequest';
 import { HttpResponse } from '../HttpResponse/HttpResponse';
 
@@ -113,7 +113,7 @@ export class HttpClient implements IHttpClient{
         serverOptions.data, 
         (request: any) => this.handleRequest({ sock, request})
       );
-      
+
       // sock.on(serverOptions.end, closeConnection);
       sock.on(serverOptions.error, (error: Error) => {
         console.log('error:', error)
